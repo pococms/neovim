@@ -39,3 +39,14 @@ C:\> nvim %LOCALAPPDATA%\nvim\init.vim
 " Paste with <Shift> + <Insert>
 imap <S-Insert> <C-R>
 ```
+
+## Downloading a single file (init.vim) from GitHub using curl
+
+I know you'd never do anything this sloppy or lazy, but I would. You can download
+`init.vim` straight from this repo as shown using [curl](https://curl.haxx.se/):
+
+```bash
+# -L means follow redirects
+# -O means use only the base filename, strip off the rest of the pathname 
+curl -L -O https://raw.github.com/tomcam/neovim/master/init.vim
+```
