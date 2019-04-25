@@ -1,6 +1,6 @@
 # My notes on using Neovim
 
-...of interest to no one but me. Just need a convenient place for this info.
+The contents of my commented [init.vim](/init-vim.md) are of interest to no one but me. Just need a convenient place for this info. This might help you learn where to put your init.vim, though.
 
 ## Configuring with init.vim
 
