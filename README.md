@@ -33,7 +33,7 @@ So, on a new Windows install, you'd do this to configure the Neovim init.vim fil
 C:\> nvim %LOCALAPPDATA%\nvim\init.vim
 ```
 
-### To enable Pasting from the Windows System clipboard, add this to init.vim
+#### To enable Pasting from the Windows System clipboard, add this to init.vim
 ```vim
 " Make sure you have this in init.vim, then paste using Shift+Insert
 " Paste with <Shift> + <Insert>
