@@ -2,6 +2,8 @@
 
 The contents of my commented [init.vim](init.vim) are of interest to no one but me. Just need a convenient place for this info. This might help you learn where to put your init.vim, though.
 
+* For installation instructions, see [Installing on Ubuntu 18.04](https://github.com/tomcam/neovim/blob/master/install-neovim-ubuntu1804.md)
+
 ## Configuring with init.vim
 
 [Neovim](https://neovim.io) is pretty much compatible with Vim. Vim looks for the configuration file
