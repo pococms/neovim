@@ -1,9 +1,18 @@
 # Installing Neovim on Ubuntu 18.04
 
 ## TODO:
-* Try on a new user because I got weird output on the `sudo apt-get install fuse libfuse2 git python3-pip ack-grep -y` step.
+* Test these on a new DO install. I think the first one is better.
+* Alternate way:Try on a new user because I got weird output on the `sudo apt-get install fuse libfuse2 git python3-pip ack-grep -y` step.
 
-### Based on:
+## Correct way I think
+
+```
+sudo add-apt-repository ppa:neovim-ppa/stable
+sudo apt-get update
+sudo apt-get install neovim
+```
+
+## ALTERNATE lower-level way? Based on:
 * [How to Install NeoVim and Plugins with vim-plug](https://www.linode.com/docs/tools-reference/tools/how-to-install-neovim-and-plugins-with-vim-plug/)
 
 * Go to home directory.
