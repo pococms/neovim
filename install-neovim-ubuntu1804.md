@@ -40,7 +40,7 @@ sudo mv nvim /usr/bin
 * Optional, and mostly for me: Import an `init.vim` file.
 
 ```
-mkdir -p .config/nvim
+mkdir -p $HOME/nvim/.config/nvim
 # You will almost certainly want to uses someone else's `init.vim`:
-wget https://raw.github.com/tomcam/neovim/master/init.vim --output-document ~/.config/init.vim
+wget https://raw.github.com/tomcam/neovim/master/init.vim --output-document $HOME/.config/init.vim
 ```
