@@ -50,3 +50,10 @@ I know you'd never do anything this sloppy or lazy, but I would. You can downloa
 # -O means use only the base filename, strip off the rest of the pathname 
 curl -L -O https://raw.github.com/tomcam/neovim/master/init.vim
 ```
+
+You can do the same with wget:
+
+```
+ wget https://raw.github.com/tomcam/neovim/master/init.vim --output-document ~/.config/init.vim
+ ```
+ 
