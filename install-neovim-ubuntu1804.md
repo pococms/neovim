@@ -19,7 +19,7 @@ cd ~
 sudo apt-get install fuse libfuse2 git python3-pip ack-grep -y
 ```
 
-* Install Neovim itself.
+* Copy over the latest Neovim binary.
 ```
 $ wget --quiet https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
 ```
