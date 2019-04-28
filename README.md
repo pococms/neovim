@@ -59,3 +59,12 @@ You can do the same with wget:
  wget https://raw.github.com/tomcam/neovim/master/init.vim --output-document ~/.config/init.vim
  ```
  
+### Most of this configuration works on classic Vim, too.
+
+You can use this config file with Vim, which expects it
+
+```
+# Copy the init.vim file from GitHub to
+# a file named ~/.vimrc.
+wget https://raw.github.com/tomcam/neovim/master/init.vim --output-document ~/.vimrc
+```
