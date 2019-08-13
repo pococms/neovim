@@ -1,4 +1,4 @@
-# My notes on using Neovim
+# My notes on using Neovim and Vim
 
 The contents of my commented [init.vim](init.vim) are of interest to no one but me. Just need a convenient place for this info. This might help you learn where to put your init.vim, though.
 
@@ -58,7 +58,29 @@ You can do the same with wget:
 ```
  wget https://raw.github.com/tomcam/neovim/master/init.vim --output-document ~/.config/init.vim
  ```
- 
+## Vim
+
+### vimrc on Windows
+
+The Vim configuration file `.vimrc` lives in `vim %HOMEDRIVE%%HOMEPATH%\.vimrc`:
+
+```
+vim %HOMEDRIVE%%HOMEPATH%\.vimrc
+```
+### Get this vimrc on Windows:
+
+```
+: Change to the home directory, where
+: Vim expects to find the .vimrc config file.
+cd %HOMEDRIVE%%HOMEPATH%
+: Copy an example Neovim file to the current directory 
+: (this one is compatible with Vim)
+curl -L -O https://raw.github.com/tomcam/neovim/master/init.vim
+: Rename the Neovim config file to Vim's config file name.
+ren init.vim .vimrc
+```
+
+
 ### Most of this configuration works on classic Vim, too.
 
 You can use this config file with Vim, which expects it
