@@ -60,6 +60,10 @@ You can do the same with wget:
  ```
 ## Vim
 
+### vimrc on MacOS/Linux, etc.
+
+The Vim configuration file `.vimrc` lives in `~/.vimrc`
+
 ### vimrc on Windows
 
 The Vim configuration file `.vimrc` lives in `vim %HOMEDRIVE%%HOMEPATH%\.vimrc`:
