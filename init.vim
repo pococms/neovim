@@ -27,6 +27,10 @@ set smartcase
 
 " Show current filename in title
 set title
+
+" Enable autoindent
+" Not necessary in neovim but a reminder for vim
+:set autoindent
  
 " Color scheme.
 " Favorites are blue,evening, murphy, pablo, peachpuff, slate
