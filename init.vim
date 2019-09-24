@@ -18,7 +18,10 @@ set softtabstop=2
 set expandtab
 set shiftwidth=2
 
-"
+" Ctrl+W goes to the next buffer
+" while editing (imap means insert mode)
+:imap <C-W> :bn!<CR>     
+
 " Make search case insenstivie
 set ignorecase
  
