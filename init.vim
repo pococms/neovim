@@ -22,6 +22,12 @@ set shiftwidth=2
 " while editing (imap means insert mode)
 :imap <C-W> :bn!<CR>     
 
+" Make P work every time
+" Thank you, Benoit on Stackoverflow:
+" https://stackoverflow.com/questions/7163947/paste-multiple-times 
+" p pastes. gv re-selects. y copies it again. 
+xnoremap p pgvy
+
 " Make search case insenstivie
 set ignorecase
  
