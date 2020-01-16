@@ -65,7 +65,7 @@ You can do the same with wget:
 The Vim configuration file `.vimrc` lives in `~/.vimrc`. To edit:
 
 ```
-vim vim ~/.vimrc
+vim ~/.vimrc
 ```
 
 ### vimrc on Windows
