@@ -15,6 +15,13 @@
 " mkdir  %LOCALAPPDATA%\nvim
 " nvim %LOCALAPPDATA%\nvim\init.vim
 
+" Ctrl+W goes to the next buffer
+map <C-W> :bnext<CR>     
+" So does Ctrl+J
+map <C-J> :bnext<CR>
+
+" Press backslash then b in normal mode to get list of files
+nnoremap <Leader>b :ls<CR>:b<Space>
 
 " Pressing jk is same as pressing Esc
 imap jk <esc>
@@ -35,10 +42,6 @@ set softtabstop=2
 " Use Ctrl+V to insert an actual tab character
 set expandtab
 set shiftwidth=2
-
-" Ctrl+W goes to the next buffer
-" while editing (imap means insert mode)
-:imap <C-W> :bn!<CR>     
 
 " Enable Shift+Insert to paste from
 " Windows system clipboard
@@ -65,7 +68,7 @@ set title
 :set autoindent
  
 " Color scheme.
-" Favorites are blue,evening, murphy, pablo, peachpuff, slate
+" Favorites are murphy, blue,evening, pablo, peachpuff, slate
 colorscheme  murphy
 
 " Show current line number and column
