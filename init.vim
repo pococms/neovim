@@ -26,7 +26,7 @@ nnoremap <Leader>b :ls<CR>:b<Space>
 " Pressing jk is same as pressing Esc
 imap jk <esc>
 
-" Turn on syntax highlighting
+" Enable syntax highlighting
 syntax on
 set syntax=whitespace
 " Show tabs as visible characters.
