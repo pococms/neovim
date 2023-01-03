@@ -11,6 +11,10 @@
 " mkdir -p $HOME/.config/nvim/
 " cp init.vim $HOME/.config/nvim
 
+" Allow copies from neovim to system clipobard 
+" Ctrl+y now yanks to the system clipboard
+set clipboard+=unnamedplus 
+
 " Windows
 " mkdir  %LOCALAPPDATA%\nvim
 " nvim %LOCALAPPDATA%\nvim\init.vim
